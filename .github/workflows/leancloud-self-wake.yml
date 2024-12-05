@@ -18,4 +18,4 @@ jobs:
            MY_SITE: ${{ secrets.SITE }}
          # 向站点发送 GET 请求
          run: |                                   
-           curl $MY_SITE
+           curl https://adeptmicors279.avosapps.us/sign-up
